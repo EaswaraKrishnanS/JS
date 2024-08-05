@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <!-- Title  -->
+        <title>Biznus Template - Webflow Ecommerce Website</title>
+
+        <!-- Head Logo -->
+        <link rel="icon" href="./images/logo0.png" >
+
+        <!-- Style Sheet Link -->
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- Script CDN Links -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/931ae3f132.js" crossorigin="anonymous"></script>
+
+        <!-- Internal Style Sheet -->
+         <style>
+            .nav-bg{
+                background-color: #eb5757;
+            }
+            .txtcl{
+                color: white;
+            }
+            .mr-8{
+                margin-right: 8px;
+            }
+            a{
+                color: white;
+            }
+            
+            .announcement-btn {
+                margin-left: 385px;
+                background-color: #f06060; /* Button background color */
+                color: white; /* Button text color */
+                border: none;
+                text-align: center;
+                border-radius: 50px; /* Rounded corners */
+                padding: 10px 20px; /* Padding inside the button */
+                font-size: 16px; /* Font size */
+                cursor: pointer; /* Cursor changes to pointer when hovering */
+                outline: none; /* Removes the outline */
+                transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+                margin-right: 10px; /* Space between button and text */
+            }
+
+            .announcement-btn:hover {
+                background-color: #e04e4e; /* Darker shade for hover effect */
+                
+            }
+
+            .announcement-text {
+                color: white; /* Text color */
+                font-size: 16px; /* Font size */
+                text-align: center;
+            }
+
+            .ml{
+                margin-left: 25px;
+            }
+
+            .mt{
+                margin-top: 5px;
+            }
+
+            .box{
+                border: 2px solid black;
+                background-color:black;
+                border-radius: 6px;
+            }
+          
+            .bg{
+              width: 100%;
+              height: 100%;
+              background-image: url('./images/img2.jpg');
+              background-size: 100% 100%;
+
+            }
+
+            .m-t{
+                margin-top: 150px ;
+                margin-left: 50px;
+            }
+
+            
+
+         </style>
+    </head>
+
+    <body>
+
+        <!-- Navbar Fully As Link -->
+         
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg" >
+            <a href="#" class="nav-link" >
+                <button class="announcement-btn">Announcement</button>
+                <span class="announcement-text">How we're responding to COVID-19</span>
+            </a>
+        </nav>    
+        
+        <nav class="navbar nav-bg navbar-expand-lg">
+
+            <!-- Logo With Link -->
+                <a href="./index.html" class="nav-link" style="color: white;">
+                    <img src="./images/logo0.png" alt="LOGO" class="mr-8">A C M E  
+                </a>
+                <div class="ml-auto">
+                    <ul class="navbar-nav">
+                       
+                        <!-- NavBar - Other Links  -->
+                        <li><a href="./index.html" class="nav-link ml">Home</a></li>
+                        <li><a href="./about.html" class="nav-link ml">About</a></li>
+                        <li><a href="./Services.html" class="nav-link ml">Shop</a></li>
+                        <li><a href="./Login.html" class="nav-link ml">Donate</a></li>
+                        <li><a href="./Login.html" class="nav-link ml">Contact</a></li>
+                        <a href="./cart.html"><li><i class="fas fa-shopping-cart nav-link ml mt box"></i></li></a>
+                    </ul>
+                </div>
+
+        </nav>
+
+        <div class="bg">
+
+            <div class="row no-gutters">
+
+                <div class="col-4 m-t">
+                    <h1>Serving you since 1989.</h1>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </body>
+</html>
